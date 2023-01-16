@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <div>
+            <p>Name</p>
+            <input placeholder="Name" tabindex="1" type="text" name="username">
+        </div>
+        <div>
+            <p>Password</p>
+            <input placeholder="12345" tabindex="2" type="password" name="userpass">
+        </div>
+        <div>
+            <p>Telephone</p>
+            <input placeholder="+7" tabindex="3" type="tel" name="telephone">
+        </div>
+        <div>
+            <p>Male/Female</p>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="Man">Man
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="Woman">Woman
+            </div>
+        </div>
+        <div>
+            <p>Property</p>
+            <div>
+                <input checked tabindex="5" type="checkbox" name="bike" value="yes">Bike
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="snow-board" value="yes">Snow-board
+            </div>
+            <div>
+                <input disabled tabindex="7" type="checkbox" name="roller-skates" value="yes">Roller-skates
+            </div>
+        </div>
+        <div>
+            <p>Addition information</p>
+            <div>
+                <textarea tabindex="8" name="about" cols="50" rows="5"></textarea>
+            </div>
+        </div>
+        <div>
+            <p>Attach a photo</p>
+            <div>
+                <input tabindex="9" type="file" name="userphoto" >
+            </div>
+        </div>
+        <div>
+            <p>Favorite color</p>
+            <select tabindex="10" name="colors">
+                <option value="red">red</option>
+                <option value="yellow">yellow</option>
+                <option value="blue">blue</option>
+            </select>
+        </div>
+        <div>
+            <p>Action</p>
+            <button tabindex="11" type="submit">Send</button>
+            <button tabindex="12" type="reset">Reset</button>
+        </div>    
+    </form>
+</body>
+</html>
